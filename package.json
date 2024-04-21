@@ -1,0 +1,38 @@
+{
+  "name": "sit725-2023-t1-prac3",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "SIT725 3.2P",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kang123jing/sit725-2023-t1-prac4.git"
+  },
+  "keywords": [
+    "Express",
+    "NodeJs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kang123jing/sit725-2023-t1-prac4.git/issues"
+  },
+  "homepage": "https://github.com/kang123jing/sit725-2023-t1-prac4.git#readme",
+  "dependencies": {
+    "chai": "^5.1.0",
+    "express": "^4.18.2",
+    "mongodb": "^4.17.2",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/register": "^7.23.7",
+    "mocha": "^10.4.0"
+  }
+}
