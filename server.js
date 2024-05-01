@@ -8,7 +8,7 @@ const MongoClient = require("mongodb").MongoClient;
 // 路由模块引入
 const projectsRoute = require("./routers/router");
 
-const port = process.env.PORT || 8080; // 注意将 PoRT 改为 PORT，并添加默认端口号 8080
+const port = process.env.PORT || 8090; // 注意将 PoRT 改为 PORT，并添加默认端口号 8080
 
 app.use(express.json());
 app.use(express.static(__dirname + '/public')); // 注意 dirname 应该是 __dirname，并添加路径拼接符 /
